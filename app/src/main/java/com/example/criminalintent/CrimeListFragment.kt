@@ -83,7 +83,7 @@ class CrimeListFragment : Fragment() {
             dateTextView.text = this.crime.date.toString()
         }
 
-        override fun onClick(p0: View?) {
+        override fun onClick(view: View?) {
             callbacks?.onCrimeSelected(crime.id)
         }
     }
